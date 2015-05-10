@@ -9,6 +9,8 @@ hugo
 
 git checkout gh-pages
 
+mv public/* .
+
 # Add changes to git.
 git add -A
 
@@ -21,3 +23,5 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin gh-pages
+
+git checkout master
