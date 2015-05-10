@@ -2,7 +2,7 @@
 date = "2015-05-10T10:22:37+01:00"
 draft = false
 title = "2"
-
+categories = [ "android" ]
 +++
 
 {{<highlight java>}}

@@ -2,7 +2,7 @@
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
-indexes:
+taxonomies:
   category: "categories"
 baseurl: "http://cool-story.github.io/brogrammer.today/"
 title: "brogrammer.today"
