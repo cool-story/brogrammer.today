@@ -95,7 +95,7 @@ h3 {
   font-size: 1.25rem;
 }
 h4, h5, h6 {
-  font-family: "ff-meta-web-pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;  
+  font-family: "ff-meta-web-pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -204,7 +204,9 @@ img {
   margin: 0 0 1rem;
   border-radius: 5px;
   height: auto;
-  width:100%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .fpimg {
@@ -228,7 +230,7 @@ img {
     margin-right: 1rem;
 }
 
-.center { 
+.center {
     float: center;
 }
 
@@ -286,19 +288,19 @@ ul.catlist li:last-child:after { content: ""; }
         padding-bottom: 2rem;
         padding-top: 0;
 }
- 
+
 /* From https://gist.github.com/thebigreason/1296097 */
 /* This gets Facebook to fall into place */
 .social iframe {
 	vertical-align: bottom;
 }
- 
+
 /* Set an optional width for your button wrappers */
 .social span {
 	display: inline-block;
 	width: 110px;
 }
- 
+
 /*
  * Messages
  *
