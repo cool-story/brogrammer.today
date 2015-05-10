@@ -1,12 +1,8 @@
-<!--
-  This file is a template that is included various places to have a list of
-  that particular posts categories generated.
--->
-<div class="container">
-  <ul class="catlist">
-    <li><em>Categories: </em></li>
+<ul>
+  <div class="wrap">
+    <span><em></em></span>
     {{ range .Params.categories }}
-      <li><a href="/categories/{{ . | urlize }}">{{ . }}</a> </li>
+    <span><a href="/categories/{{ . | urlize }}">{{ . }}</a></span>
     {{ end }}
-  </ul>
-</div>
+  </div>
+</ul>
