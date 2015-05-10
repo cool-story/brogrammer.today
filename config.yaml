@@ -4,7 +4,7 @@ layoutdir: "layouts"
 publishdir: "public"
 indexes:
   category: "categories"
-baseurl: "http://cool-story.github.io/brogrammer"
+baseurl: "http://cool-story.github.io/brogrammer.today/"
 title: "foobar test"
 canonifyurls: true
 ...
