@@ -5,6 +5,6 @@ publishdir: "public"
 indexes:
   category: "categories"
 baseurl: "http://cool-story.github.io/brogrammer.today/"
-title: "foobar test"
+title: "brogrammer.today"
 canonifyurls: true
 ...
