@@ -8,8 +8,8 @@ title = "first"
 
 First Post
 ===
-```java
+{{<highlight java>}}
 public void fooBar() {
   // TODO did this work?
 }
-```
+{{</highlight>}}
