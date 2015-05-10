@@ -6,14 +6,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <base href="http://cool-story.github.io/brogrammer.today">
+    <base href="http://localhost:1313/brogrammer.today">
     <title> Categories </title>
-    <link rel="canonical" href="http://cool-story.github.io/brogrammer.today/categories/">
+    <link rel="canonical" href="http://localhost:1313/brogrammer.today/categories/">
     
 
-<link rel="stylesheet" href="http://cool-story.github.io/brogrammer.today/css/poole.css">
-<link rel="stylesheet" href="http://cool-story.github.io/brogrammer.today/css/syntax.css">
-<link rel="stylesheet" href="http://cool-story.github.io/brogrammer.today/css/lanyon.css">
+<link rel="stylesheet" href="http://localhost:1313/brogrammer.today/css/poole.css">
+<link rel="stylesheet" href="http://localhost:1313/brogrammer.today/css/syntax.css">
+<link rel="stylesheet" href="http://localhost:1313/brogrammer.today/css/lanyon.css">
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
 </head>
 
@@ -27,9 +27,9 @@
 <div class="sidebar" id="sidebar">
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="http://cool-story.github.io/brogrammer.today/">Home</a>
+    <a class="sidebar-nav-item" href="http://localhost:1313/brogrammer.today/">Home</a>
 
-    <a class="sidebar-nav-item" href="http://cool-story.github.io/brogrammer.today/posts">Blog</a>
+    <a class="sidebar-nav-item" href="http://localhost:1313/brogrammer.today/posts">Blog</a>
   </nav>
 
   <div class="sidebar-item">
@@ -44,7 +44,7 @@
     <div class="masthead">
       <div class="container">
         <h3 class="masthead-title">
-          <a href="http://cool-story.github.io/brogrammer.today/posts" title="Blog">Blog Posts</a>
+          <a href="http://localhost:1313/brogrammer.today/posts" title="Blog">Blog Posts</a>
         </h3>
       </div>
     </div>
@@ -72,13 +72,16 @@
 <footer>
   <div>
     <p class="right credit">
-    Fancy footer here. Link to <a href="http://cool-story.github.io/brogrammer.today/">Home Page</a>
+    Fancy footer here. Link to <a href="http://localhost:1313/brogrammer.today/">Home Page</a>
     </p>
   </div>
 </footer>
 </div>
 
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
 
 
