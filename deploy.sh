@@ -2,8 +2,12 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Build the project. 
+# Build the project.
+git checkout master
+
 hugo
+
+git checkout gh-pages
 
 # Add changes to git.
 git add -A
@@ -16,5 +20,4 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin master
-git subtree push --prefix=public git@cool.github.com:cool-story/brogrammer.today.git gh-pages
+git push origin gh-pages
