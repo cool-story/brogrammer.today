@@ -5,9 +5,12 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 git checkout master
 
+git push origin :gh-pages
+git branch -D gh-pages
+
 hugo
 
-git checkout gh-pages
+git checkout -b gh-pages
 
 mv public/* .
 
