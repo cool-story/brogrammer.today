@@ -2,23 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on foobar test</title>
-    <link>http://cool-story.github.io/brogrammer.today/posts/</link>
+    <link>http://localhost:1313/brogrammer.today/posts/</link>
     <description>Recent content in Posts on foobar test</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 May 2015 09:22:37 +0100</lastBuildDate>
-    <atom:link href="http://cool-story.github.io/brogrammer.today/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 May 2015 11:22:37 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/brogrammer.today/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>first</title>
-      <link>http://cool-story.github.io/brogrammer.today/posts/first/</link>
+      <title>third</title>
+      <link>http://localhost:1313/brogrammer.today/posts/third/</link>
+      <pubDate>Sun, 10 May 2015 11:22:37 +0100</pubDate>
+      
+      <guid>http://localhost:1313/brogrammer.today/posts/third/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;anotherExample&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color: #75715e&#34;&gt;// TODO did this work?&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>http://localhost:1313/brogrammer.today/posts/second/</link>
+      <pubDate>Sun, 10 May 2015 10:22:37 +0100</pubDate>
+      
+      <guid>http://localhost:1313/brogrammer.today/posts/second/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;anotherExample&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color: #75715e&#34;&gt;// TODO did this work?&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1</title>
+      <link>http://localhost:1313/brogrammer.today/posts/first/</link>
       <pubDate>Sun, 10 May 2015 09:22:37 +0100</pubDate>
       
-      <guid>http://cool-story.github.io/brogrammer.today/posts/first/</guid>
-      <description>
-
-&lt;h1 id=&#34;first-post:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;First Post&lt;/h1&gt;
-
-&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;fooBar&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;{&lt;/span&gt;
+      <guid>http://localhost:1313/brogrammer.today/posts/first/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;fooBar&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;{&lt;/span&gt;
   &lt;span style=&#34;color: #75715e&#34;&gt;// TODO did this work?&lt;/span&gt;
 &lt;span style=&#34;color: #f92672&#34;&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;

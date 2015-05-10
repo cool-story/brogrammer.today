@@ -1,12 +1,12 @@
 +++
-date = "2015-05-10T09:22:37+01:00"
+date = "2015-05-10T11:22:37+01:00"
 draft = false
-title = "1"
+title = "third"
 
 +++
 
 {{<highlight java>}}
-public void fooBar() {
+public void anotherExample() {
   // TODO did this work?
 }
 {{</highlight>}}
