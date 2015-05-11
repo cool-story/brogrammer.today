@@ -13,7 +13,7 @@ hugo
 git checkout -b gh-pages
 
 mv public/* .
-
+git checkout master CNAME
 # Add changes to git.
 git add -A
 
